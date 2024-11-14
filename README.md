@@ -10,7 +10,6 @@ Bu proje, sporcu beslenmesi ile ilgili web tabanlı veri toplama ve bu verilerin
 - [Kullanım](#kullanım)
 - [Dosya Açıklamaları](#dosya-açıklamaları)
 - [Katkıda Bulunanlar](#katkıda-bulunanlar)
-- [Lisans](#lisans)
 
 ## Kurulum
 

@@ -28,23 +28,22 @@ Bu proje, sporcu beslenmesi ile ilgili web tabanlı veri toplama ve bu verilerin
 
 3. **ChromeDriver Kurulumu:**
 
-   - ChromeDriver'ı [buradan](https://chromedriver.chromium.org/downloads) indirip, `chromedriver` dosyasını proje dizinine yerleştirin.
+   - ChromeDriver'ı [buradan](https://chromedriver.chromium.org/downloads) indirip, `chromedriver` dosyası proje dizinine yerleştirilmiştir.
+
+     
 
 ## Kullanım
 
 1. **Kodun Çalıştırılması:**
 
-   Projeyi çalıştırmak için terminalde aşağıdaki komutu kullanın:
+   Projeyi çalıştırmak için terminalde aşağıdaki komut kullanılmıştır:
 
    ```bash
    python crawler.py
    ```
 
-2. **Arama Sorgusunun Ayarlanması:**
 
-   - `crawler.py` dosyasındaki `search_query` değişkenini güncelleyerek arama sorgusunu değiştirebilirsiniz.
-
-3. **Veri İşleme ve Kaydetme:**
+2. **Veri İşleme ve Kaydetme:**
 
    - Web sayfasından alınan içerik, `tarama.py` ve `tok.py` dosyalarındaki fonksiyonlar ile işlenir.
    - İşlenen veriler, `kelime.py` ve `database.py` dosyaları yardımıyla CSV dosyasına ve veritabanına kaydedilir.
